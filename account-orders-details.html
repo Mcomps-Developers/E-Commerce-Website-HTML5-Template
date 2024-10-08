@@ -588,16 +588,16 @@
       <div class="row">
         <div class="col-lg-2">
           <ul class="account-nav">
-            <li><a href="http://localhost:8000/account-dashboard" class="menu-link menu-link_us-s ">Dashboard</a></li>
-            <li><a href="http://localhost:8000/account-orders" class="menu-link menu-link_us-s ">Orders</a></li>
-            <li><a href="http://localhost:8000/account-addresses" class="menu-link menu-link_us-s ">Addresses</a></li>
-            <li><a href="http://localhost:8000/account-details" class="menu-link menu-link_us-s ">Account Details</a>
+            <li><a href="account-dashboard.html" class="menu-link menu-link_us-s ">Dashboard</a></li>
+            <li><a href="account-orders.html" class="menu-link menu-link_us-s ">Orders</a></li>
+            <li><a href="account-addresses.html" class="menu-link menu-link_us-s ">Addresses</a></li>
+            <li><a href="account-details.html" class="menu-link menu-link_us-s ">Account Details</a>
             </li>
-            <li><a href="http://localhost:8000/account-wishlists" class="menu-link menu-link_us-s ">Wishlist</a></li>
+            <li><a href="account-wishlists.html" class="menu-link menu-link_us-s ">Wishlist</a></li>
             <li>
-              <form method="POST" action="http://localhost:8000/logout" id="logout-form-1">
+              <form method="POST" action="logout.html" id="logout-form-1">
                 <input type="hidden" name="_token" value="3v611ELheIo6fqsgspMOk0eiSZjncEeubOwUa6YT" autocomplete="off">
-                <a href="http://localhost:8000/logout" class="menu-link menu-link_us-s"
+                <a href="logout.html" class="menu-link menu-link_us-s"
                   onclick="event.preventDefault(); document.getElementById('logout-form-1').submit();">Logout</a>
               </form>
             </li>
@@ -611,7 +611,7 @@
                 <h5>Ordered Details</h5>
               </div>
               <div class="col-6 text-right">
-                <a class="btn btn-sm btn-danger" href="http://localhost:8000/account-orders">Back</a>
+                <a class="btn btn-sm btn-danger" href="account-orders.html">Back</a>
               </div>
             </div>
             <div class="table-responsive">
@@ -672,11 +672,11 @@
 
                     <td class="pname">
                       <div class="image">
-                        <img src="http://localhost:8000/uploads/products/thumbnails/1718066538.jpg" alt=""
+                        <img src="/uploads/products/thumbnails/1718066538.jpg" alt=""
                           class="image">
                       </div>
                       <div class="name">
-                        <a href="http://localhost:8000/shop/product1" target="_blank" class="body-title-2">Product1</a>
+                        <a href="shop-product1.html" target="_blank" class="body-title-2">Product1</a>
                       </div>
                     </td>
                     <td class="text-center">Ksh 71.00</td>
@@ -687,7 +687,7 @@
                     <td class="text-center"></td>
                     <td class="text-center">No</td>
                     <td class="text-center">
-                      <a href="http://localhost:8000/shop/product1" target="_blank">
+                      <a href="shop-product1.html" target="_blank">
                         <div class="list-icon-function view-icon">
                           <div class="item eye">
                             <i class="fa fa-eye"></i>
@@ -700,11 +700,11 @@
 
                     <td class="pname">
                       <div class="image">
-                        <img src="http://localhost:8000/uploads/products/thumbnails/1718066673.jpg" alt=""
+                        <img src="/uploads/products/thumbnails/1718066673.jpg" alt=""
                           class="image">
                       </div>
                       <div class="name">
-                        <a href="http://localhost:8000/shop/product2" target="_blank" class="body-title-2">Product2</a>
+                        <a href="shop/product2" target="_blank" class="body-title-2">Product2</a>
                       </div>
                     </td>
                     <td class="text-center">Ksh 101.00</td>
@@ -715,7 +715,7 @@
                     <td class="text-center"></td>
                     <td class="text-center">No</td>
                     <td class="text-center">
-                      <a href="http://localhost:8000/shop/product2" target="_blank">
+                      <a href="shop/product2.html" target="_blank">
                         <div class="list-icon-function view-icon">
                           <div class="item eye">
                             <i class="fa fa-eye"></i>
@@ -779,7 +779,7 @@
           </div>
 
           <div class="wg-box mt-5 text-right">
-            <form action="http://localhost:8000/account-order/cancel-order" method="POST">
+            <form action="/account-order/cancel-order" method="POST">
               <input type="hidden" name="_token" value="3v611ELheIo6fqsgspMOk0eiSZjncEeubOwUa6YT" autocomplete="off">
               <input type="hidden" name="_method" value="PUT"> <input type="hidden" name="order_id" value="1">
               <button type="submit" class="btn btn-danger">Cancel Order</button>
